@@ -1,10 +1,10 @@
-=== NCAA College Football D1A Team Stats Lite ===
+=== NCAAF D1A Team Stats Lite ===
 Contributors: bpmee31
 Donate link: http://www.ibet.ws/get_stats.php
 Tags: college football, ncaa football, ncaaf, college football stats, football, nfl, ncaaf football stats, ncaa, ncaa news, sports stats, stats, division 1 football, ncaa division 1 football, ncaa d1
 Requires at least: 2.2.0
 Tested up to: 3.0.1
-Stable tag: 0.8
+Stable tag: 0.8.1
 
 NCAAF D1A Team Stats allows bloggers display an NCAAF D1A team's standings within their sidebar.
 
@@ -52,5 +52,10 @@ takes 5 minutes or less to complete.
 
 == Changelog ==
 
+= 0.8.1 =
+
+Added a convenient upload/installation form for acquiring optional advanced plugins in the user control panel.
+
 = 0.8 =
+
 First Release to general public on Wordpress.org Plugins Directory. Help us work out bugs!

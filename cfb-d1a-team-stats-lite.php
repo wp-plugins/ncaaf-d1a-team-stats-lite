@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: NCAA College Football D1A Team Stats LIte
+Plugin Name: NCAAF D1A Team Stats LIte
 Description: Provides the latest NCAAF D1A stats of your NCAAF D1A Team, updated regularly throughout the NCAAF regular season.
 Author: A93D
-Version: 0.8
+Version: 0.8.1
 Author URI: http://www.thoseamazingparks.com/getstats.php
 */
 
@@ -220,7 +220,7 @@ function cfb_d1al_stats_plugin_page() {
 <!-- Start Advanced Plugins List -->
   <h2>If You Want MORE Stats and Information:</h2>
   <p>A93D Offers FREE upgrades for this stats package, that allow you to display advanced and more complete NCAAF D1A team stats.
-  <h5>Use the link below to upgrade to our FREE advanced NCAAF D1A stats package</h5>
+  <h5>Step 1. <?php _e('Use the link below to upgrade to our FREE advanced NCAAF D1A stats package') ?></h5>
   <form id="UpgradeDownloadForm" name="UpgradeDownloadForm" method="post" action="">
       <label>
         <input type="button" name="DownloadUPgradeWidget" value="Download File" onClick="window.open('http://www.ibet.ws/download/cfbd1a-team-stats.zip', 'Download'); return false;">
@@ -228,8 +228,18 @@ function cfb_d1al_stats_plugin_page() {
     <br />
     <a href="http://www.ibet.ws/download/cfbd1a-team-stats.zip" title="Click Here to Download or use the Button" target="_blank"><strong>Click Here</strong> to Download if Button Does Not Function</a>
   </form>
+  	<h5>Step 2. <?php _e('Now Locate The File You Just Downloaded and Upload Here. It will install automatically.') ?></h5>
+	<p class="install-help"><?php _e('Find the .zip file from the step above on your computer, then click the "Install Now" button.') ?></p>
+	<form method="post" enctype="multipart/form-data" action="<?php echo admin_url('update.php?action=upload-plugin') ?>">
+		<?php wp_nonce_field( 'plugin-upload') ?>
+		<label class="screen-reader-text" for="pluginzip"><?php _e('Plugin zip file'); ?></label>
+		<input type="file" id="pluginzip" name="pluginzip" />
+		<input type="submit" class="button" value="<?php esc_attr_e('Install Now') ?>" />
+	</form>
+
+  
   <h2>Other FREE Sports Stats and Information Plugins:</h2>
-  <p>Download and install in seconds using the Wordpress 3.0 Plugin Installer.</p>
+  <p>Download and install in seconds using the Wordpress 3.0 Plugin Installer. You Can also auto-install by downloading any of the plugins below, and then uploading using our form above. Just make sure to select the correct downloaded .zip file on your computer!</p>
   <p><strong>Football</strong><br />
     <strong>NFL Team Stats</strong> <a href="http://wplatest5.thoseamazingparks.com" target="_blank">Preview</a> | <a href="http://www.ibet.ws/download/nfl-team-stats.zip" title="Download Plugin Now" target="_blank">Download Now</a> - Complete stats of your favorite NFL Team, plus optional news scroller<br />
     <strong>NFL News Scroller</strong> <a href="http://wplatest5.thoseamazingparks.com" target="_blank">Preview</a> | <a href="http://www.ibet.ws/download/nfl-news-scroller.zip" title="Download Plugin Now" target="_blank">Download Now</a> - Top 10 NFL Headlines<br />
