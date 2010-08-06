@@ -1,4 +1,4 @@
-=== NCAAF D1A Team Stats Lite ===
+=== NCAA College Football D1A Team Stats Lite ===
 Contributors: bpmee31
 Donate link: http://www.ibet.ws/get_stats.php
 Tags: college football, ncaa football, ncaaf, college football stats, football, nfl, ncaaf football stats, ncaa, ncaa news, sports stats, stats, division 1 football, ncaa division 1 football, ncaa d1
@@ -15,7 +15,7 @@ visitors can keep track of all the important NCAAF D1A team standings and stats.
 
 Please note, this *Lite* edition contains NO Ads, NO text links, and NO References to the plugin author. It is completely free to use and is easy to install using WP's plugin installer.
 
-This plugin is licensed under WordPress.org guidelines and <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License">General Public License</a>.
+This plugin is licensed under WordPress.org guidelines and <a href="http://en.wikipedia.org/wiki/GNU_General_Public_License">General Public License</a>. This plugin is also commonly found on <a href="http://www.sportsbetting3.com" target="_blank">college football betting sites</a>, sport stats sites, busines and personal blogs, as well as <a href="http://www.more-online-casinos.us" target="_blank">online casinos</a> websites.
 
 If the blogger is interested in more advanced stats, a link to a website with more information is provided on the plugin's control panel page. Note, NO links to advanced stats plugins are advertised within the stats output that appear on the blog itself. The display on the blogger's website is completely, 100% ad free.
 

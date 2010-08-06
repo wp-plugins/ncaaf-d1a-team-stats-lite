@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: NCAAF D1A Team Stats LIte
+Plugin Name: NCAA College Football D1A Team Stats LIte
 Description: Provides the latest NCAAF D1A stats of your NCAAF D1A Team, updated regularly throughout the NCAAF regular season.
 Author: A93D
 Version: 0.8.1
