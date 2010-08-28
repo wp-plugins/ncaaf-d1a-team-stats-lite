@@ -87,7 +87,7 @@ function TCPopup(field, palette) {
 	var w = 194, h = 240,
 	move = screen ? 
 		',left=' + ((screen.width - w) >> 1) + ',top=' + ((screen.height - h) >> 1) : '', 
-	o_colWindow = window.open('<?php echo '../wp-content/plugins/cfb-d1a-team-stats-lite/picker.html'; ?>', null, "help=no,status=no,scrollbars=no,resizable=no" + move + ",width=" + w + ",height=" + h + ",dependent=yes", true);
+	o_colWindow = window.open('<?php echo '../wp-content/plugins/ncaaf-d1a-team-stats-lite/picker.html'; ?>', null, "help=no,status=no,scrollbars=no,resizable=no" + move + ",width=" + w + ",height=" + h + ",dependent=yes", true);
 	o_colWindow.opener = window;
 	o_colWindow.focus();
 }
@@ -398,7 +398,7 @@ Select Scrolling Text Color from Web Safe Palette (Default color is Black: #0000
 <?php wp_nonce_field('update-options'); ?>
 	<input type="Text" name="cfb_d1al_stats_color" id="cfb_d1al_stats_color" value="<?php echo get_option('cfb_d1al_stats_color'); ?>" />
 
-			<a href="javascript:TCP.popup(document.forms['tcp_test'].elements['cfb_d1al_stats_color'])"><img width="15" height="13" border="0" alt="Click Here Pick A Color" src="<?php echo '../wp-content/plugins/cfb-d1a-team-stats-lite/cpiksel.gif'; ?>" /></a>
+			<a href="javascript:TCP.popup(document.forms['tcp_test'].elements['cfb_d1al_stats_color'])"><img width="15" height="13" border="0" alt="Click Here Pick A Color" src="<?php echo '../wp-content/plugins/ncaaf-d1a-team-stats-lite/cpiksel.gif'; ?>" /></a>
       <br />
       <input type="hidden" name="action" value="update" />
    <input type="hidden" name="page_options" value="cfb_d1al_stats_color" />
