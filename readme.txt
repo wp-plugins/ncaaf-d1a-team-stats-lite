@@ -1,4 +1,4 @@
-=== NCAAF D1A Team Stats Lite ===
+=== NCAA College Football D1A Team Stats Lite ===
 Contributors: bpmee31
 Donate link: http://www.ibet.ws/get_stats.php
 Tags: college football, ncaa football, ncaaf, college football stats, football, nfl, ncaaf football stats, ncaa, ncaa news, sports stats, stats, division 1 football, ncaa division 1 football, ncaa d1
