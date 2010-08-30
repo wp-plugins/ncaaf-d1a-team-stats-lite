@@ -258,7 +258,7 @@ function TCDraw(o_win, o_doc) {
      <small>My New Team:</small><br />
      <p>
      <select name="cfb_d1al_stats_team" id="cfb_d1al_stats_team">
-<option value="air_force_falcons_team_stats" selected="selected">Air Force Falcons</option>
+<option value="air_force_falcons_team_stats">Air Force Falcons</option>
 <option value="akron_zips_team_stats">Akron Zips</option>
 <option value="alabama_crimson_tide_team_stats">Alabama Crimson Tide</option>
 <option value="arizona_state_sun_devils_team_stats">Arizona State Sun Devils</option>
@@ -276,9 +276,11 @@ function TCDraw(o_win, o_doc) {
 <option value="buffalo_bulls_team_stats">Buffalo Bulls</option>
 <option value="california_golden_bears_team_stats">California Golden Bears</option>
 <option value="central_michigan_chippewas_team_stats">Central Michigan Chippewas</option>
+<option value="cincinnati_bearcats_team_stats">Cincinnati Bearcats</option>
 <option value="clemson_tigers_team_stats">Clemson Tigers</option>
 <option value="colorado_buffaloes_team_stats">Colorado Buffaloes</option>
 <option value="colorado_state_rams_team_stats">Colorado State Rams</option>
+<option value="connecticut_huskies_team_stats">Connecticut Huskies</option>
 <option value="duke_blue_devils_team_stats">Duke Blue Devils</option>
 <option value="east_carolina_pirates_team_stats">East Carolina Pirates</option>
 <option value="eastern_michigan_eagles_team_stats">Eastern Michigan Eagles</option>
@@ -303,6 +305,7 @@ function TCDraw(o_win, o_doc) {
 <option value="louisiana_lafayette_ragin_cajuns_team_stats">Louisiana-Lafayette Ragin' Cajuns</option>
 <option value="louisiana_monroe_warhawks_team_stats">Louisiana-Monroe Warhawks</option>
 <option value="louisiana_tech_bulldogs_team_stats">Louisiana Tech Bulldogs</option>
+<option value="louisville_cardinals_team_stats">Louisville Cardinals</option>
 <option value="lsu_tigers_team_stats">LSU Tigers</option>
 <option value="marshall_thundering_herd_team_stats">Marshall Thundering Herd</option>
 <option value="maryland_terrapins_team_stats">Maryland Terrapins</option>
@@ -334,14 +337,18 @@ function TCDraw(o_win, o_doc) {
 <option value="oregon_ducks_team_stats">Oregon Ducks</option>
 <option value="oregon_state_beavers_team_stats">Oregon State Beavers</option>
 <option value="penn_state_nittany_lions_team_stats">Penn State Nittany Lions</option>
+<option value="pittsburgh_panthers_team_stats">Pittsburgh Panthers</option>
 <option value="purdue_boilermakers_team_stats">Purdue Boilermakers</option>
 <option value="rice_owls_team_stats">Rice Owls</option>
+<option value="rutgers_scarlet_knights_team_stats">Rutgers Scarlet Knights</option>
 <option value="san_diego_state_aztecs_team_stats">San Diego State Aztecs</option>
 <option value="san_jose_state_spartans_team_stats">San Jose State Spartans</option>
 <option value="south_carolina_gamecocks_team_stats">South Carolina Gamecocks</option>
+<option value="south_florida_bulls_team_stats">South Florida Bulls</option>
 <option value="southern_methodist_mustangs_team_stats">Southern Methodist Mustangs</option>
 <option value="southern_miss_golden_eagles_team_stats">Southern Miss Golden Eagles</option>
 <option value="stanford_cardinal_team_stats">Stanford Cardinal</option>
+<option value="syracuse_orange_team_stats">Syracuse Orange</option>
 <option value="tcu_horned_frogs_team_stats">TCU Horned Frogs</option>
 <option value="temple_owls_team_stats">Temple Owls</option>
 <option value="tennessee_volunteers_team_stats">Tennessee Volunteers</option>
@@ -366,6 +373,7 @@ function TCDraw(o_win, o_doc) {
 <option value="wake_forest_demon_deacons_team_stats">Wake Forest Demon Deacons</option>
 <option value="washington_huskies_team_stats">Washington Huskies</option>
 <option value="washington_state_cougars_team_stats">Washington State Cougars</option>
+<option value="west_virginia_mountaineers_team_stats">West Virginia Mountaineers</option>
 <option value="western_kentucky_hilltoppers_team_stats">Western Kentucky Hilltoppers</option>
 <option value="western_michigan_broncos_team_stats">Western Michigan Broncos</option>
 <option value="wisconsin_badgers_team_stats">Wisconsin Badgers</option>
