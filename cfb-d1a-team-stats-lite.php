@@ -87,7 +87,7 @@ function TCPopup(field, palette) {
 	var w = 194, h = 240,
 	move = screen ? 
 		',left=' + ((screen.width - w) >> 1) + ',top=' + ((screen.height - h) >> 1) : '', 
-	o_colWindow = window.open('<?php echo '../wp-content/plugins/ncaaf-d1a-team-stats-lite/picker.html'; ?>', null, "help=no,status=no,scrollbars=no,resizable=no" + move + ",width=" + w + ",height=" + h + ",dependent=yes", true);
+	o_colWindow = window.open('<?php echo '../wp-content/plugins/cfb-d1a-team-stats-lite/picker.html'; ?>', null, "help=no,status=no,scrollbars=no,resizable=no" + move + ",width=" + w + ",height=" + h + ",dependent=yes", true);
 	o_colWindow.opener = window;
 	o_colWindow.focus();
 }
